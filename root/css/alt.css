@@ -1,0 +1,63 @@
+html 
+{
+	background-color: white;
+}
+
+/*
+ Navigation
+ */
+nav ul li
+{
+	color: #303030;
+}
+
+nav ul li.active,
+nav ul li.active:hover
+{
+	border-color: #b0b0b0;
+	color: #909090;
+}
+
+nav ul li:hover
+{
+	border: 2px solid #606060;
+}
+
+/*
+ Content
+ */
+h1,
+h2,
+section
+{
+	color: #606060;
+	width: 100%;
+}
+
+h2
+{
+	padding: 0;
+	margin: 60px 0 20px 0;
+}
+
+@media screen and (max-width: 480px)
+{
+	h2 
+	{
+		margin-top: 20px;
+	}
+}
+
+
+/*
+ Footer
+ */
+footer ul li i
+{
+	color: #303030;
+}
+
+footer ul li i:hover
+{
+	color: #909090;
+}

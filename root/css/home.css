@@ -1,0 +1,75 @@
+html 
+{
+	background: url("../images/background.jpg") no-repeat center center fixed;
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+
+/*
+ Navigation
+ */
+nav ul li
+{
+	color: rgba(255, 255, 255, 0.75);
+}
+
+nav ul li.active,
+nav ul li.active:hover
+{
+	border-color: rgba(255, 255, 255, 0.3);
+	color: rgba(255, 255, 255, 0.75);
+}
+
+nav ul li:hover
+{
+	color: white;	
+	border: 2px solid white;
+}
+
+/*
+ Content
+ */
+h1,
+h2,
+section
+{
+	color: white;
+}
+
+h2 
+{
+	border-bottom: 2px solid white;
+}
+
+section
+{
+	font-weight: 600;
+}
+
+section a,
+section a:visited
+{
+	color: #ab290f; /*#85E2FF;*/
+}
+
+section a:hover
+{
+	color: #86200c; /*#60A3B8;*/
+}
+
+
+/*
+ Footer
+ */
+footer ul li i
+{
+	color: white;
+}
+
+footer ul li i:hover
+{
+	color: #86200c; /*#60A3B8;*/
+}
