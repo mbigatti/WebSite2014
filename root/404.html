@@ -16,31 +16,34 @@
 	<title>Massimiliano Bigatti - 404</title>
 
 	<link href="http://fonts.googleapis.com/css?family=Montserrat:400|Open+Sans:300,400,600" rel="stylesheet" type="text/css">
-	<link href="css/animate.min.css" rel="stylesheet" type="text/css">
-	<link href="css/normalize.css" rel="stylesheet" type="text/css">
-	<link href="css/base.css" rel="stylesheet" type="text/css">
-	<link href="css/home.css" rel="stylesheet" type="text/css">
-	<link href="css/404.css" rel="stylesheet" type="text/css">
-	<link href="fonts/social-icon-font.css" rel="stylesheet" type="text/css">
-	
-	<link rel="shortcut icon" href="/images/favicon/favicon.ico" type="image/x-icon" />
-	<link rel="apple-touch-icon" href="/images/favicon/apple-touch-icon.png" />
-	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-touch-icon-57x57.png" />
-	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-touch-icon-72x72.png" />
-	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-touch-icon-76x76.png" />
-	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-touch-icon-114x114.png" />
-	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-touch-icon-120x120.png" />
-	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-touch-icon-144x144.png" />
-	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-touch-icon-152x152.png" />
-	
-	<script src="js/zepto.min.js" type="text/javascript"></script>
+	<link href="http://bigatti.it/css/animate.min.css" rel="stylesheet" type="text/css">
+	<link href="http://bigatti.it/css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="http://bigatti.it/css/base.css" rel="stylesheet" type="text/css">
+	<link href="http://bigatti.it/css/home.css" rel="stylesheet" type="text/css">
+	<link href="http://bigatti.it/css/404.css" rel="stylesheet" type="text/css">
+	<link href="http://bigatti.it/fonts/social-icon-font.css" rel="stylesheet" type="text/css">
+
+	<link rel="shortcut icon" href="http://bigatti.it/images/favicon/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="http://bigatti.it/images/favicon/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" sizes="57x57" href="http://bigatti.it/images/favicon/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="http://bigatti.it/images/favicon/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="http://bigatti.it/images/favicon/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="http://bigatti.it/images/favicon/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="http://bigatti.it/images/favicon/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="http://bigatti.it/images/favicon/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="http://bigatti.it/images/favicon/apple-touch-icon-152x152.png" />
+
+	<script src="http://bigatti.it/js/zepto.min.js" type="text/javascript"></script>
 	<script>
 		$().ready( function() {
+			$('#about').click(function() {
+				window.location = '../';
+			});
 			$('#apps').click(function() {
-				window.location = 'apps/';
+				window.location = 'http://bigatti.it/apps/';
 			});
 			$('#books').click(function() {
-				window.location = 'books/';
+				window.location = 'http://bigatti.it/books/';
 			});
 		});
 	</script>
@@ -48,18 +51,19 @@
 <body>
 	<nav>
 		<ul>
-			<li class="active">About</li>
+			<li id="about">About</li>
 			<li id="apps">Apps</li>
 			<li id="books">Books</li>
 		</ul>
 	</nav>
 	<section>
 		<h1>404</h1>
-		<h2>The requested page was not found, try with the links above and below.</h2>
+		<h2>The requested page was not found.</h2>
 	</section>
 	<footer>
 		<ul>
 			<li><a href="https://twitter.com/mbigatti" target="_blank"><i class="icon-twitter"></i></a></li>
+			<li><a href="https://github.com/mbigatti" target="_blank"><i class="icon-github"></i></a></li>
 			<li><a href="https://www.linkedin.com/in/maxbigatti" target="_blank"><i class="icon-linkedin"></i></a></li>
 			<li><a href="https://www.behance.net/_mxb" target="_blank"><i class="icon-behance"></i></a></li>
 		</ul>
@@ -73,6 +77,5 @@
 
   ga('create', 'UA-34001024-1', 'bigatti.it');
   ga('send', 'pageview');
-
 </script>
 </html>
