@@ -6,16 +6,14 @@ html
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	
+	color: white;
 }
+
 
 /*
  Navigation
  */
-nav ul li
-{
-	color: rgba(255, 255, 255, 0.75);
-}
-
 nav ul li.active,
 nav ul li.active:hover
 {
@@ -23,47 +21,52 @@ nav ul li.active:hover
 	color: rgba(255, 255, 255, 0.75);
 }
 
-nav ul li:hover
+nav ul li a,
+nav ul li a:visited
+{
+	color: rgba(255, 255, 255, 0.75);
+}
+
+nav ul li a:hover
 {
 	color: white;
-	border: 2px solid white;
+	border-color: white;
 }
+
 
 /*
  Content
  */
-h1,
-h2,
-section
-{
-	color: white;
-}
-
 h2
 {
-	border-bottom: 2px solid white;
+	-webkit-animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	-o-animation-delay: 0.5s;
+	animation-delay: 0.5s;
 }
 
-section
+p
 {
 	font-weight: 600;
-}
-
-section a,
-section a:visited
-{
-	color: #69bdd7;
-}
-
-section a:hover
-{
-	color: #5599ae;
+	
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
 }
 
 
 /*
  Footer
  */
+footer
+{
+	-webkit-animation-delay: 1.5s;
+	-moz-animation-delay: 1.5s;
+	-o-animation-delay: 1.5s;
+	animation-delay: 1.5s;
+}
+
 footer ul li i
 {
 	color: white;

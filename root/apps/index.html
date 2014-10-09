@@ -13,6 +13,7 @@
 	<meta property="twitter:title" content="Apps by Massimiliano Bigatti"/>
 	<meta property="twitter:image" content="http://bigatti.it/images/mxb_site.jpg"/>
 	<meta name="viewport" content="width=device-width">
+	
 	<title>Massimiliano Bigatti - Apps</title>
 
 	<link href="http://fonts.googleapis.com/css?family=Montserrat:400|Open+Sans:300,400,600" rel="stylesheet" type="text/css">
@@ -32,44 +33,29 @@
 	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-touch-icon-120x120.png" />
 	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-touch-icon-144x144.png" />
 	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-touch-icon-152x152.png" />
-	
-	<script src="../js/zepto.min.js" type="text/javascript"></script>
-	<script>
-		$().ready( function() {
-			$('#about').click(function() {
-				window.location = '../';
-			});
-			$('#books').click(function() {
-				window.location = '../books/';
-			});
-		});
-	</script>
 </head>
 <body>
 	<nav>
 		<ul>
-			<li id="about">About</li>
+			<li id="about"><a href="..">About</a></li>
 			<li class="active">Apps</li>
-			<li id="books">Books</li>
+			<li id="books"><a href="../books/">Books</a></li>
 		</ul>
 	</nav>
 	<section>
 		<h1>Apps</h1>
-		<!--a name="shops!"><h2>Shops!</h2></a-->
-		<a name="60mins"></a>
-		<h2>60mins</h2>
-		<p>
-			Minimal countdown timer, maximum 60 minutes. Drag or tap the knob to set time, 
-			push central button to start / pause. Tap the knob to stop. Swipe up to reveal options.
-		</p>
-		<ul>
-			<li>Caffeine mode keeps iPhone up so you can see the countdown (require connecting 
-				the power supply or less than 5 minute timer);</li>
-			<li>Choose between two themes: day or night;</li>
-			<li>Tap the megaphone to spread the love!</li>
-		</ul>
-		<img src="../images/apps/60mins-placeit.png"/>
-		<a href="http://appstore.com/60mins"><img src="../images/apps/appstore.png" class="appstore"></a>
+		
+		<div class="container">
+			<a href="https://itunes.apple.com/us/app/shops!-simple-powerful-shopping/id615378410?l=it&ls=1&mt=8">
+			<div class="image" style="background-image: url(../images/apps/shops-placeit.jpg);"></div> 
+			</a>
+		
+			<a href="http://appstore.com/60mins">
+			<div class="image" style="background-image: url(../images/apps/60mins-placeit.png);"></div> 
+			</a>		
+		</div>
+		
+		<div style="clear:both"></div>
 	</section>
 	<footer>
 		<ul>

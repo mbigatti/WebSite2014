@@ -13,6 +13,7 @@
 	<meta property="twitter:title" content="Massimiliano Bigatti personal website"/>
 	<meta property="twitter:image" content="http://bigatti.it/images/mxb_site.jpg"/>
 	<meta name="viewport" content="width=device-width">
+	
 	<title>Massimiliano Bigatti</title>
 
 	<link href="http://fonts.googleapis.com/css?family=Montserrat:400|Open+Sans:300,400,600" rel="stylesheet" type="text/css">
@@ -31,47 +32,26 @@
 	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-touch-icon-120x120.png" />
 	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-touch-icon-144x144.png" />
 	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-touch-icon-152x152.png" />
-	
-	<script src="js/zepto.min.js" type="text/javascript"></script>
-	<script>
-		$().ready( function() {
-			$('#apps').click(function() {
-				window.location = 'apps/';
-			});
-			$('#books').click(function() {
-				window.location = 'books/';
-			});
-		});
-	</script>
 </head>
 <body>
 	<nav>
 		<ul>
 			<li class="active">About</li>
-			<li id="apps">Apps</li>
-			<li id="books">Books</li>
+			<li id="apps"><a href="apps/">Apps</a></li>
+			<li id="books"><a href="books/">Books</a></li>
 		</ul>
 	</nav>
 	<section>
-		<h1 class="animated swing">Massimiliano Bigatti</h1>
-		<h2>Senior Software Architect, Team Leader and Technical Writer</h2>
-		<p>
+		<h1 class="animated fadeInDown">Massimiliano Bigatti</h1>
+		<h2 class="animated fadeInDown">Senior Software Architect, Team Leader and Technical Writer</h2>
+		<p class="animated fadeInDown">
 		Currently building applications and frameworks for the Java Platform, 
 		focusing on Object Oriented Analysis and Design and software architecture. 
 		Interested in interaction design and user experience 
 		on mobile and desktop devices.
 		</p>
-		<p>
-		I published some <a href="apps/">iOS apps</a> on the Apple App Store.
-		</p>
-		<p>
-		I'm also a technical writer. I wrote a few <a href="books/">books</a> on Java technology, 
-		UML, Objective-C and other topics.<br/>I also wrote 200+ tech magazine articles 
-		for top italian publishers, like Gruppo 24 ore, Mondadori, Infomedia, 
-		Edizioni Master and others.	
-		</p>
 	</section>
-	<footer>
+	<footer class="animated fadeInDown">
 		<ul>
 			<li><a href="https://twitter.com/mbigatti" target="_blank"><i class="icon-twitter"></i></a></li>
 			<li><a href="https://github.com/mbigatti" target="_blank"><i class="icon-github"></i></a></li>

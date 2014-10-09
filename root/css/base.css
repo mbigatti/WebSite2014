@@ -12,6 +12,7 @@ nav
 nav ul
 {
     list-style-type: none;
+    
     margin: 0;
     padding: 0;
 }
@@ -20,24 +21,11 @@ nav ul li
 {
 	display: inline;
 	
-	padding: 10px 20px;
 	margin: 0 20px 0 0;
 	
 	font-size: 13px;
 	text-decoration: none;
 	text-transform: uppercase;
-		
-	border: 2px solid transparent; /* rgba(255, 255, 255, 0.4); */
-	
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	border-radius: 8px;
-	
-	-o-transition: color .3s ease-in-out, border-color .3s ease-in-out;
-	-ms-transition: color .3s ease-in-out, border-color .3s ease-in-out;
-	-moz-transition: color .3s ease-in-out, border-color .3s ease-in-out;
-	-webkit-transition: color .3s ease-in-out, border-color .3s ease-in-out;
-	transition: color .3s ease-in-out, border-color .3s ease-in-out;
 }
 
 nav ul li:last-child
@@ -48,16 +36,32 @@ nav ul li:last-child
 nav ul li.active,
 nav ul li.active:hover
 {
-	cursor: inherit;
-}
-
-nav ul li:hover
-{
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
 	border-radius: 8px;
+	
+	border: 2px solid transparent;
+	padding: 10px 20px; 
+}
 
-	cursor: pointer;
+nav ul li a,
+nav ul li a:visited,
+nav ul li a:hover
+{
+	padding: 10px 20px; 
+	text-decoration: none;
+		
+	border: 2px solid transparent;
+	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	
+	-o-transition: color .3s ease-in-out, border-color .3s ease-in-out;
+	-ms-transition: color .3s ease-in-out, border-color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out, border-color .3s ease-in-out;
+	-webkit-transition: color .3s ease-in-out, border-color .3s ease-in-out;
+	transition: color .3s ease-in-out, border-color .3s ease-in-out;
 }
 
 @media screen and (max-width: 480px)
@@ -72,6 +76,7 @@ nav ul li:hover
 	}
 }
 
+
 /*
  Content
  */
@@ -80,7 +85,6 @@ h2,
 section
 {
 	font-family: "Open sans", sans-serif;
-	text-align: center;
 }
 
 h1
@@ -99,8 +103,7 @@ h2
 
 	margin: 10px 0 40px 0;
 	padding-bottom: 60px;
-		
-	border-bottom: 2px solid white;
+	
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
@@ -131,40 +134,29 @@ section a:visited
 
 @media screen and (max-width: 480px)
 {
-	h1, h2 
-	{
-		margin-right: 20px;
-		margin-left: 20px;
-	}
-	
 	h1 
 	{
-		font-size: 32px;
+		font-size: 28px;
 		line-height: 1em;
-		margin-left: 0;
-		margin-top: 40px;
-		padding-bottom: 20px;
+		margin: 40px 0 0 0;
+		padding-bottom: 10px;
 	}
 	
 	h2 
 	{
-		font-size: 20px;
+		font-size: 18px;
 		line-height: 1.2em;
-		padding-bottom: 30px;
+		margin: 0;
+		padding-bottom: 10px;
 	}
 	
 	section 
 	{
-		width: 100%;
+		width: 90%;	
 		margin-bottom: 40px;
 	}
-	
-	p 
-	{
-		padding-right: 20px;
-		padding-left: 20px;
-	}
 }
+
 
 /*
  Footer

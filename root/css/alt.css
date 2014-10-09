@@ -6,11 +6,6 @@ html
 /*
  Navigation
  */
-nav ul li
-{
-	color: #303030;
-}
-
 nav ul li.active,
 nav ul li.active:hover
 {
@@ -18,9 +13,15 @@ nav ul li.active:hover
 	color: #909090;
 }
 
-nav ul li:hover
+nav ul li a,
+nav ul li a:visited
 {
-	border: 2px solid #606060;
+	color: #303030;
+}
+
+nav ul li a:hover
+{
+	border-color: #606060;
 }
 
 /*
