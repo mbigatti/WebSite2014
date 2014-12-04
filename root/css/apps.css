@@ -3,55 +3,20 @@ section
 	text-align: center;
 }
 
-section div.container
+div.container
 {
-	padding: 40px 20px 20px 20px;
+	margin-top: 80px;
 }
 
-section div.image
+section img
 {
-	display: inline-block;
-
-	width: 512px; 
-	height: 512px; 
-	
-	background-repeat: no-repeat;
-	background-position: right center;
-}	
-
-section div.image:first-child
-{
-	margin-right: 20px;
+	margin: 20px;
 }
 
 @media screen and (max-width: 480px)
 {
-	section
+	div.container
 	{
-		width: 100%;
-	}
-	
-	section div.container
-	{
-		padding: 0;
-	}
-
-	section div.image
-	{
-		background-size: 100%;
+		margin-top: 20px;
 	}
 }
-
-/*
-@media 
-only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2) {
-
-	.image {
-		background: url(/path/to/my/highreslogo.png) no-repeat;
-	}
-
-}
-*/
