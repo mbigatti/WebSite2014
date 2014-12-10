@@ -185,6 +185,13 @@ footer ul li:last-child
 	margin-right: 0;
 }
 
+footer ul li a,
+footer ul li a:visited,
+footer ul li a:hover
+{
+	text-decoration: none;
+}
+
 footer ul li i
 {
 	font-size: 28px;
