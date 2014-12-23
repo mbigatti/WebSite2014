@@ -9,3 +9,15 @@ _resources
 _cooldudes/
 
 *.psd
+
+_github/php-markdown/
+
+etc/httpd/logs/*
+
+usr.share.cooldudes/0344ec8fb078e82a29bafba42e527180.ini
+usr.share.cooldudes/25613ac0b82d0ef7b17a1d4a651e171a.ini
+usr.share.cooldudes/cache/*
+
+usr.share.cooldudes/configuration.ini
+
+var.www.html/apps-support/shops!/privacy.html
