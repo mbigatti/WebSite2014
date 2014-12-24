@@ -1,0 +1,22 @@
+section
+{
+	text-align: center;
+}
+
+div.container
+{
+	margin-top: 80px;
+}
+
+section img
+{
+	margin: 20px;
+}
+
+@media screen and (max-width: 480px)
+{
+	div.container
+	{
+		margin-top: 20px;
+	}
+}

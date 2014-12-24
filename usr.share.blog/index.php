@@ -85,11 +85,6 @@
 	<title><?=$page_title?></title>
 
 	<link href="http://fonts.googleapis.com/css?family=Montserrat:400|Open+Sans:300,400,600" rel="stylesheet" type="text/css">
-
-	<link href="../css/animate.min.css" rel="stylesheet" type="text/css">
-	<link href="../css/normalize.css" rel="stylesheet" type="text/css">
-	<link href="../css/base.css" rel="stylesheet" type="text/css">
-	<link href="../css/alt.css" rel="stylesheet" type="text/css">
 	<link href="../css/blog.css" rel="stylesheet" type="text/css">
 	<link href="../fonts/social-icon-font.css" rel="stylesheet" type="text/css">
 	

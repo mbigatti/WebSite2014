@@ -1,16 +1,15 @@
 ._*
 *.DS_Store
+*.psd
+
 _github_social-icon-font/
+_github/php-markdown/
+
 _old-resources/
 _scripts/
 _squarespace/
-root/apps-support
 _resources
 _cooldudes/
-
-*.psd
-
-_github/php-markdown/
 
 etc/httpd/logs/*
 
@@ -21,3 +20,5 @@ usr.share.cooldudes/cache/*
 usr.share.cooldudes/configuration.ini
 
 var.www.html/apps-support/shops!/privacy.html
+
+build/*
